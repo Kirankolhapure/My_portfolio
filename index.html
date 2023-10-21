@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4240e6246e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="" class="logo">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#edu">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+      </nav>
+      <div class="header-text">
+        <p>Hi, I am</p>
+        <h1><span>Kiran</span><br>Kolhapure</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="Kiran_piccccc.jpeg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <h2>Hi, I am Kiran Kolhapure from Belagavi<h2>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Backend Tech:</span><br>JAVA</li>
+              <li>Python</li>
+              <li><span>Database Tech:</span><br>MySQL</li>
+              <li><span>Frontend Tech:</span><br>HTML</li>
+              <li>CSS<br></li>
+              <li>JavaScript<br></li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Jain College Of Engineering Belagavi (Computer Science and Engineering)
+              </span><br>8.39 CGPA</li>
+              <li><span>Banajawad Residential PU College Athani (P.U.C)</span><br>80.33%</li>
+              <li><span>Sankonatti Vidyalaya Sankonatti (SSLC)</span><br>89.92%</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="hobbies">
+            <ol>
+              <li>Coding</li>
+              <li>Playing Cricket</li>
+              <li>Listening Music</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="edu">
+    <div class="container">
+      <h1 class="sub-title">Education Details</h1>
+      <div class="edu-list">
+        <div>
+          <h2>SSLC</h2>
+          <p><span>School:</span> Sankonatti Vidyalaya Sankonatti<br>YOP: 2017 <br>Percentage: 89.92%</p>
+        </div>
+        <div>
+          <h2>PUC</h2>
+          <p><span>College:</span> Banajawad Residential P U College Athani<br>YOP: 2019 <br>Percentage: 80.33%</p>
+        </div>
+        <div>
+          <h2>UG</h2>
+          <p><span>College:</span> Jain College of Engineering Belagavi<br>YOP: 2013 <br>CGPA: 8.39</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="project">
+    <div class="container">
+      <h1 class="sub-title">Project</h1>
+      <div class="pro">
+        <h2><u><b><span>OBJECT DETECTION AND OBJECT TRACKING WITH VOICE FEEDBACK</span></b></u></h2>
+    
+        <legend id="one"><b>Aim</b></legend>
+        <p>Object detection and tracking with voice feedback is a challenging task in the field of computer vision. <br>
+            The goal is to develop a system that can detect and track objects in realtime. 
+            The system should also provide voice feedback to the user in real-time. 
+        </p>
+        <br><br>
+
+        <legend id="two"><b>Proposed System</b></legend>
+        <p>
+           * Object detection is a computer vision task that involves identifying and locating objects in images or videos. <br>
+            *It is an important part of many applications, such as surveillance, self-driving cars, or robotics. <br>
+            *YOLO (You Only Look Once) is an object detection algorithm that identifies and localize objects in an image or video by dividing it <br> into a grid and predicting
+             bounding boxes and class probabilities for each grid cell, in single forward pass through a neural network. <br>
+            *Voice Output: 
+            Speech synthesis is the artificial production of human speech. <br>
+            A text-to-speech (specifically pyttsx3 library in python) is used which converts normal language text into speech.
+        </p>
+
+        <h3 id="four"><b>Architecture of the proposed system</b></h3>
+          <img src="Picture1.jpeg" height="400" width="800">
+        <h3 id="five"><b>Result</b></h3>
+          <img src="Picture2.jpeg" height="300" width="600"> <br>
+
+        <legend id="three"><b>Conclusion</b></legend>
+        <p>Object detection and tracking with voice feedback is a complex project that aims to detect and track objects in real-time using a camera, process the images with a deep learning model, and provide voice feedback to the user. 
+        After implementing the project, we can conclude that it is a promising <br> technology that has the potential to enhance human-machine interaction. The project can be used in various applications, such as security systems, robotics, and autonomous vehicles.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="certificates">
+    <div class="container">
+      <h1 class="sub-title">Certificates</h1>
+    <fieldset>
+        <legend><b>Artificial Intelligence and Machine Learning (AIML)</b> </legend>
+        <p>Artificial Intelligence and Machine Learning (AI/ML) is a field of computer
+             science dedicated to creating intelligent systems that can learn and make
+              decisions based on data.
+        </p>
+        <center><img src="internship.jpeg" height="400" width="800" alt=""></center>
+    </fieldset><br>
+    <fieldset>
+      <legend><b>HTML5 and CSS3</b> </legend>
+      <p>HTML Doctypes,head,body,paragraph,div,header,footer,main,lists,images,links. <br>CSS Selectors,rules,properties,margin,borders,
+        background-color,font size,text alignment,inheritance,type selectors,direct descendants,classes,IDs,specificity,advanced selectors etc.
+      </p>
+      <center><img src="html_css.jpeg" height="400" width="800" alt=""></center>
+    </fieldset><br>
+    <fieldset>
+      <legend><b>Android Application Development</b> </legend>
+      <p>This course is concerned with the development of applications on mobile and wireless computing
+        platforms. Android will be used as a basis for teaching programming techniques and design patterns
+        related to the development of standalone applications and mobile portals to enterprise and mcommerce systems.
+      </p>
+      <center><img src="Android.jpeg" height="400" width="800" alt=""></center>
+    </fieldset><br>
+    <fieldset>
+      <legend><b>Basics of Web Development</b></legend>
+      <p>
+        Develop front end website architecture,Design user interactions on web pages,Develop back end website applications,
+        Create servers and databases for functionality,Develop adaptive content for multiple devices (cell phone, tablets, etc.)Ensure cross-platform optimization for mobile phones,
+        Ensure responsiveness of applications,Work alongside graphic designers for web design features.
+      </p>
+     <center> <img src="web.jpeg" height="400" width="800" alt=""></center>
+  </fieldset><br>
+    </div>
+
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-regular fa-envelope"></i>kirankolhapure2@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>6364308794</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/kiran.kolhapure.169?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/_kiran_kolhapure?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Kirankolhapure?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kiran-kolhapure-3947221bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+          </div>
+          <a href="Kiran_Kolhapure_CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" placeholder="Your Message" rows="6"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright@Kiran.</p>
+    </div>
+  </div>
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
